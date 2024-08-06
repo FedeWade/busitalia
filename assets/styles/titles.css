@@ -1,0 +1,146 @@
+
+body {
+    background-color: white;
+    margin: auto;
+    width: 90%;
+}
+
+.box {
+    border-radius: 23px 23px 0 0;
+    background-color: white;
+    padding: 5px 20px 10px 40px;
+    box-shadow: 0 0 40px #00000063;
+    margin: auto;
+    margin-top: 40px;
+}
+
+h2 {
+    color: #cd1426;
+    font-family: futura;
+}
+
+p {
+     margin:0;
+     font-family: futura;
+}
+
+.bold {
+    font-family: futura-bold;
+}
+
+.inner-user-info {
+    margin: 18px 0;
+}
+
+.qr {
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.qr-img {
+    width:55%;
+}
+
+.qr-foot {
+    text-align: left;
+}
+
+.time {
+    display: inline;
+    font-size: 40px;
+}
+
+.cd {
+    display: inline;
+    float: right;
+    font-size: 50px;
+}
+
+h3 {
+    color: #cd1426;
+    font-family: futura-bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: rgb(221, 221, 221);
+    border-radius: 12px;
+    margin: 22px 0;
+    padding: 18px;
+}
+
+.box-container {
+    border-radius: 12px;
+    margin: 22px 0;
+    padding: 18px;
+}
+
+.info-column {
+    box-sizing: border-box;
+    width: 49%;
+    display: inline-block;
+}
+
+.ar {
+    text-align: right;
+}
+
+.green {
+    background-color: #1fd489;
+    color: white;
+}
+
+.duration {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.duration-d {
+    font-size: 45px;
+    margin-top: -10px;
+    padding: 0;
+}
+
+.price-container {
+    margin: 30px 0;
+}
+
+.price-text {
+    box-sizing: border-box;
+    width: 49%;
+    display: inline-block;
+    font-family: futura-bold;
+}
+
+.price-label {
+    font-family: futura-bold;
+    font-size: 55px;
+}
+
+
+.footer {
+    margin-bottom: 100px;
+}
+
+.logo-foot {
+    width:350px;
+}
+
+.footer-code {
+    float: right;
+    text-align: right;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: futura-bold;
+}
+
+.bol {
+    font-family: futura-bold;
+}
+
+

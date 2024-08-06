@@ -1,0 +1,86 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<style>
+    
+</style>
+
+{% include 'navbar/index.html.twig' %}
+
+<div class="active-banner green">
+    <h3 class="active-text">TITOLO ATTIVO</h3>
+</div>
+
+<div class="titles-wrapper">
+
+    <div class="box user-info"> 
+        <h2>Informazioni tessera</h2>
+        <div class="inner-user-info">
+            <p class="bold">FEDERICO BALLARIN</p>
+        </div>
+        <div class="inner-user-info">
+            <p>Tesserino n.</p>
+            <p class="bold">S4525</p>
+        </div>
+        <div class="inner-user-info">
+            <p>Scadenza:</p>
+            <p class="bold">31/10/2025</p>
+        </div>
+    </div>
+
+    <div class="box qr"> 
+        <h2>Controllo e validazione</h2>
+        <div class="center">
+            <img class="qr-img" src="{{ asset('images/qr_img.png') }}"></image>
+            <p class="qr-code bold">23627367</p>
+            <p class="qr-text">ingrandisci</p>
+        </div>
+
+        <div class="qr-foot">
+            <p class="time">12:45:23</p>
+            <p class="cd">926</p>
+        </div>
+    </div>
+
+    <div class="title-info"> 
+        <h3>ABB. MENS. LAV/TURNISTA Pd</h3>
+        <p>ABB. MENS. LAV/TURNISTA Pd</p>
+
+        <div class="info-box">
+            <p>Tratta:</p>
+            <p>Da PONTE SAN NICOLO' a CHIOGGIA FS</p>
+        </div>
+
+        <div class="box-container green">
+            <div class="info-column">
+                <p class="duration">Valido dal:</p>
+                <p class="duration-d">23/07/2024</p>
+            </div>
+            <div class="info-column ar">
+                <p class="duration">Valido fino al:</p>
+                <p class="duration-d">23/07/2024</p>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <p>Emesso il: <span class="bol">23/07/2024 23:23:23</span></p>
+        </div>
+       
+    </div>
+
+    <div class="price-container">
+        <div class="price-text">
+            <p class="price-label">Prezzo</p>
+        </div>
+        <div class="price-text ar">
+            <h3 class="price-value">$75,90</h3>
+        </div>
+    </div>
+
+    <div class="footer">
+        <img class="logo-foot" src="{{ asset('images/Busitalia_logo_196x63.jpg') }}"></image>
+        <p class="footer-code">#7487/374873</p>
+    </div>
+
+</div>
+{% endblock %}

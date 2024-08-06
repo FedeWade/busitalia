@@ -1,0 +1,12 @@
+{
+    "build": {
+      "env": {
+        "PHP_VERSION": "8.1"
+      }
+    },
+    "routes": [
+      { "src": "/titles", "dest": "/titles" },
+      { "src": "/index\\.php", "dest": "/index.php" },
+      { "src": "/(.*)", "dest": "/index.php" }
+    ]
+  }
